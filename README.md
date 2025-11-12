@@ -1,4 +1,4 @@
-# Educational Network File Sharing
+# Network File Sharing
 
 A simple Python-based file sharing system for educational purposes that allows you to share files between devices on the same local network.
 
