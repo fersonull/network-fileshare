@@ -13,7 +13,6 @@ def install_dependencies():
     required_packages = [
         'requests',
         'beautifulsoup4',
-        'cgi'
     ]
     
     print("📦 Installing required dependencies...")
