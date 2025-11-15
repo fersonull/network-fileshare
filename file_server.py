@@ -326,7 +326,7 @@ def main():
     parser = argparse.ArgumentParser(description='Educational Network File Server')
     parser.add_argument('--port', '-p', type=int, default=8000, 
                        help='Port to listen on (default: 8000)')
-    parser.add_argument('--directory', '-d', default='.', 
+    parser.add_argument('--directory', '-d', default='../../../exposed', 
                        help='Directory to serve (default: current directory)')
     parser.add_argument('--upload', '-u', action='store_true',
                        help='Allow file uploads')
